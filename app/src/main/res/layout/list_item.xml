@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height"
+        android:id="@+id/default_image_view"
+        android:src="@mipmap/ic_launcher"
+        android:background="@color/tan_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:id="@+id/fullScreen"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/miwok_text_view"
+            tools:text="lutti"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            style="@style/CategoryStyle2"/>
+
+        <TextView
+            android:id="@+id/default_text_view"
+            tools:text="one"
+            android:gravity="top"
+            style="@style/CategoryStyle2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
